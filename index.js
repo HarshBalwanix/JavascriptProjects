@@ -19,7 +19,8 @@ let binarysearchjs = `function binarySearch(array, target) {
 }
   `
 
-const bot = new Telegraf('5698210340:AAE0XyZ0oXD7ci7Zq18ETpA-n6Z4lNGhepo');
+const bot = new Telegraf('TOKEN HERE
+');
 bot.start((ctx) => ctx.reply('Welcome to the new bot developed by Harsh, This bot will give you codes in Javascript.Here is the command list /binarysearchjs  /whomadethis  /binarytreejs ')); //starting
 bot.command('binarysearchjs', (ctx) =>ctx.reply(binarysearchjs)); //commands 
 bot.command('whomadethis', (ctx)=> ctx.reply("harsh balwani"));
